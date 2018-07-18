@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <div v-if='age>=20' style="color:#eee">{{age}}</div>
+    <div v-else  style="color:red">{{age}}</div>
+
+    <h3>-------------</h3>
+
+    <div v-show='name.indexOf("shijie")>=0' style="color:#eee">{{name}}</div>
+    <div v-else style="color:red">{{name}}</div>
+</div>
+</body>
+</html>
+<script src="../js/vue.js"></script>
+<script>
+    var testMessage={
+        age:22,
+        name:'wushe'
+    }
+    new Vue({
+        el:'#app',
+        data:testMessage
+    });
+</script>
+

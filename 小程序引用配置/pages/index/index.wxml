@@ -1,0 +1,57 @@
+<!--index.wxml-->
+<view class='home_box'>
+	<view class="bg_a"></view>
+	<view class='home_ban'>
+		<view class="{{moban.ban_1?'home_top allShow':'allHide'}}">
+			<view class="home_top_bg">
+					<image class="home_top_hpone" src="http://static.98ep.com/Img/yiXinCard/mould_a_hpone.png" ></image>
+				
+				<text class="home_top_title">信贷资产管理部</text>	
+			</view>
+			<view class='home_cont '>
+				<text class='home_cont_name'>孙百荣</text>
+				<image class="home_cont_logo " src="http://static.98ep.com/Img/yiXinCard/mould_a_logo.png" ></image>
+			</view>
+		</view>
+		<view class="{{moban.ban_2?'home_top allShow':'allHide'}}">
+			<view class="home_top_bg">
+					<image class="home_top_hpone" src="http://static.98ep.com/Img/yiXinCard/mould_b_hpone.png" ></image>
+				
+				<text class="home_top_title">信贷资产管理部</text>	
+			</view>
+			<view class='home_cont home_cont_a'>
+				<text class='home_cont_name'>孙百荣</text>
+				<image class="home_cont_logo " src="http://static.98ep.com/Img/yiXinCard/mould_b_logo.png" ></image>
+			</view>
+		</view>
+		<view class="{{moban.ban_3?'home_top allShow':'allHide'}}">
+			<view class="home_top_bg home_top_bg_a">
+					<image class="home_top_hpone" src="http://static.98ep.com/Img/yiXinCard/mould_c_hpone.png" ></image>
+				
+				<text class="home_top_title">信贷资产管理部</text>	
+			</view>
+			<view class='home_cont home_cont_b'>
+				<text class='home_cont_name'>孙百荣</text>
+				<image class="home_cont_logo " src="http://static.98ep.com/Img/yiXinCard/mould_c_logo.png" ></image>
+			</view>
+		</view>
+		<view class="{{moban.ban_4?'home_top allShow':'allHide'}}">
+			<view class="home_top_bg">
+					<image class="home_top_hpone" src="http://static.98ep.com/Img/yiXinCard/mould_d_hpone.png" ></image>
+				
+				<text class="home_top_title">信贷资产管理部</text>	
+			</view>
+			<view class='home_cont home_cont_a'>
+				<text class='home_cont_name'>孙百荣</text>
+				<image class="home_cont_logo " src="http://static.98ep.com/Img/yiXinCard/mould_d_logo.png" ></image>
+			</view>
+		</view>
+		<view class='home_btn_box'>
+			<text class="{{moban.ban_1?'home_btn_item hight':'home_btn_item'}}"  data-id="1" bindtap="changeMoban">宜信版</text>
+			<text class="{{moban.ban_2?'home_btn_item hight':'home_btn_item'}}"  data-id="2"  bindtap="changeMoban">普惠版</text>
+			<text class="{{moban.ban_3?'home_btn_item hight':'home_btn_item'}}"  data-id="3" bindtap="changeMoban">财富版</text>
+			<text class="{{moban.ban_4?'home_btn_item hight':'home_btn_item'}}"  data-id="4"  bindtap="changeMoban">租赁版</text>
+		</view>
+	</view>
+	<view class='home_btn' bindtap="indexTap">填写信息</view>
+</view>

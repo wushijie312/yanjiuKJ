@@ -1,0 +1,64 @@
+
+
+@import "../../style/reset.wxss";
+/**index.wxss**/
+.login_head{
+	height:340rpx;
+	text-align:center;
+	background:#0096e0;	
+}
+
+.login_main{
+	margin:0 40rpx;
+	border-radius:10rpx;
+	-webkit-border-radius:10rpx;
+	background:#fff;
+	padding:70rpx 60rpx;
+	position:relative;
+	top:-110rpx;
+}
+
+.login_cont_a{
+	margin-bottom:50rpx;
+	background:#f7f7f7;
+	border-radius:10rpx;
+	-webkit-border-radius:10rpx;
+}
+.enterMail_label_name{
+	color:#333;
+	font-size:32rpx;
+	line-height:50rpx;
+	padding:26rpx  30rpx 26rpx 0;
+
+}
+.enterMail_input{
+	display:inline-block;
+	color:#333;
+	font-size:32rpx;
+	line-height:32rpx;
+	height:32rpx;
+	padding:26rpx  30rpx;
+	width:222rpx;
+
+}
+
+
+.login_btn{
+	border-radius:	49rpx;
+	-webkit-border-radius:	49rpx;
+	background:#0096e0;
+	font-size:32rpx;
+	color:#fff;
+	text-align:center;
+	line-height:98rpx;
+}
+.enterMail_head_cont{
+	padding-top:100rpx;
+}
+.enterMail_head_title{
+	font-size:30rpx;
+	line-height:48rpx;
+	display:block;
+	color:#fff;
+}
+

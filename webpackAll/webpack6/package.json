@@ -1,0 +1,35 @@
+{
+  "name": "webpack1",
+  "version": "1.0.0",
+  "description": "--config 指定配置打包文件到webpack.dev.config.js --progress显示打包进度过程 --display-modules显示打包模块 --colors显示打包颜色 --display-reasons显示打包原因",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web": "webpack --watch --config webpack.config.js --progress --display-modules --colors --display-reasons",
+    "webcopy": "webpack --watch --config webpack.dev.config.js --progress --display-modules --colors --display-reasons"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-latest": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "ejs-loader": "^0.3.0",
+    "file-loader": "^1.1.5",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "image-webpack-loader": "^3.4.2",
+    "latest": "^0.2.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "postcss-import": "^11.0.0",
+    "postcss-loader": "^2.0.9",
+    "precss": "^2.0.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.8.1"
+  }
+}

@@ -1,0 +1,60 @@
+@import "../../style/reset.wxss";
+/**index.wxss**/
+.login_head{
+	height:340rpx;
+	text-align:center;
+	background:#0096e0;	
+}
+.login_logo{
+	width:166rpx;
+	height:102rpx;
+	margin-top:60rpx;
+}
+.login_main{
+	margin:0 40rpx;
+	border-radius:10rpx;
+	-webkit-border-radius:10rpx;
+	background:#fff;
+	padding:40rpx 60rpx 80rpx;
+	height:500rpx;
+	position:relative;
+	top:-110rpx;
+}
+.login_title{
+	font-size:32rpx;
+	color:#666;
+	padding-bottom:40rpx;
+	border-bottom:1rpx solid #e6e6e6;
+	text-align:center;
+	display:block;
+	line-height:32rpx;
+}
+.login_cont_a{
+	margin:88rpx 0;
+	background:#f7f7f7;
+	border-radius:10rpx;
+	-webkit-border-radius:10rpx;
+}
+.login_label_name{
+	color:#333;
+	font-size:32rpx;
+	padding:26rpx  30rpx;
+	line-height:50rpx;
+}
+.login_input{
+	display:inline-block;
+	color:#333;
+	font-size:32rpx;
+	line-height:32rpx;
+	height:32rpx;
+	padding:26rpx  30rpx 26rpx 0;
+}
+.login_btn{
+	border-radius:	49rpx;
+	-webkit-border-radius:	49rpx;
+	background:#0096e0;
+	font-size:32rpx;
+	color:#fff;
+	text-align:center;
+	line-height:98rpx;
+}

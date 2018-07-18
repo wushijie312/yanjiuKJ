@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<div id="app">
+			<my-component v-bind:my-a="a">
+			</my-component>
+
+			<my-component v-bind:my-a="a">
+			</my-component>
+		</div>
+		<template id="myComponent">
+			<p>
+				<input v-model="myA" /> {{ myA }}
+			</p>
+		</template>
+	</body>
+	<script src="js/vue.js">
+	</script>
+
+	<script>
+
+
+		Vue.component('my-component', {
+
+		})
+
+		new Vue({
+			el: '#app',
+            data:  {a : 1
+            },
+            components: {
+                'my-component': {
+                    template: '#myComponent',
+                    props: ['myA']
+                }
+            }
+		})
+	</script>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<!--这是我们的View-->
+		<div id="app">
+			<p>{{ firstName }}</p>
+			<input type="text" v-model="firstName"/>
+			{{fullName}}
+		</div>
+		
+	</body>
+	<script src="./vue.js"></script>
+	<script>
+		// 这是我们的Model
+		var exampleData = {
+			message: 'Hello World!'
+		}
+
+		// 创建一个 Vue 实例或 "ViewModel"
+		// 它连接 View 与 Model
+		var ss= new Vue({
+			el: '#app',
+			data: {
+				 firstName: 'Foo',
+				 lastName: 'Bar'
+			},
+  			mounted () {
+				 this.$nextTick(function () {
+				 	var self=this;
+		      setTimeout(function(){
+		      	self.msg='sdssssswushijie';
+		      	alert(self.msg);
+		      },2000);
+    // Code that will run only after the
+    // entire view has been rendered
+  })},
+  computed: {
+	        fullName: function () {
+			   return this.firstName + ' ' + this.lastName;
+			   console.log(this.firstName+this.lastName);
+ 			}
+  },
+  methods: {
+   
+  }
+		})
+	</script>
+</html>

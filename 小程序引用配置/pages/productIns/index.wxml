@@ -1,0 +1,44 @@
+<!--logs.wxml-->
+
+<view class="pro_box">
+    <view class="pro_bg">
+
+    </view>
+    <view class="pro_lines"></view>
+    <view class="pro_cont clearfix">
+        <view class="pro_title clearfix"><text>选择商品：</text><text class="pro_icon_a fr"></text></view>
+        <view class="pro_content">价格说明：印刷张数指一次印刷同款商品张数。如所需工艺
+                不在上述商品属性展示栏内，需要联系客服4006-086-011
+                说明并询价。</view>
+    </view>
+    <view class="pro_cont clearfix">
+        <view class="pro_title clearfix">加入购物车：<text class="pro_icon_a fr"></text></view>
+        <view class="pro_content"></view>
+    </view>
+    <view class="pro_cont clearfix">
+        <view class="pro_title clearfix">加入购物车：<text class="pro_icon_a fr"></text></view>
+        <view class="pro_content">特殊说明   1、文件需要JPG、Illustrator、InDesign、
+                CorelDRAW（带校对图）及1.3-1.5版本PDF（字体必须嵌
+                入）的成品。2、成品尺寸与要求的尺寸相符合，例如：不
+                能一面做横版(90×54)，一面做竖版(54×90)，以免造成文
+                件方向错误。3、稿件完成时，一定要做出血和裁切边，以
+                利于裁切（出血要求：上下左右各1mm出血，文字离成品
+                1mm以上。</view>
+    </view>
+    <view class="pro_cont clearfix">
+        <view class="pro_title clearfix">提交说明：<text class="pro_icon_a fr"></text></view>
+        <view class="pro_content">特殊说明：平台支持多地址配送，编辑您的收货地址及每个
+                地址的配送数量每款物料均会对单款文件起做量、配送地址
+                起订量有所限制，具体编辑地址内查询相关信息</view>
+    </view>
+    <view class="pro_cont clearfix">
+        <view class="pro_title clearfix">等待审核：<text class="pro_icon_a pro_icon_b fr"></text></view>
+        <view class="pro_content"></view>
+    </view>
+    <view class="pro_cont clearfix">
+        <view class="pro_title clearfix">等待收货：<text class="pro_icon_a pro_icon_b fr"></text></view>
+        <view class="pro_content">货期说明：货期具体时间会根据申请的实际数量等其他因素
+                有所增减，详情请咨询在线客服 4006-086-011。</view>
+    </view>
+    <!-- home_box start -->
+</view>

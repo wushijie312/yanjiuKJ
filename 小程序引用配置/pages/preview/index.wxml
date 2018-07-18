@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class='home_box'>
+	<view class="bg_a"></view>
+	<view class='home_ban'>
+		<view class='home_top'>
+			<view class="home_top_bg">
+					<image class="home_top_hpone" src="http://static.98ep.com/Img/yiXinCard/mould_a_hpone.png" ></image>
+				
+				<text class="home_top_title">信贷资产管理部</text>	
+			</view>
+			<view class='home_cont '>
+				<text class='home_cont_name'>孙百荣</text>
+				<image class="home_cont_logo " src="http://static.98ep.com/Img/yiXinCard/mould_a_logo.png" ></image>
+			</view>
+		</view>
+	</view>
+	<view class="preview_bottom">
+		<view class="preview_btn clearfix">
+			<view class='preview_btn_item fl' bindtap="againeditTap">重新编辑</view>
+			<view class='preview_btn_item fr' bindtap="previewTap">提交制作</view>
+		</view>
+	</view>
+</view>

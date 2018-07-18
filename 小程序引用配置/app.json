@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/login/index",    
+    
+    "pages/mailVerify/index",
+    
+    "pages/index/index",    
+    
+    
+    "pages/fillUserInfo/index/index", 
+    "pages/fillUserInfo/upload/upload",
+       
+    
+    "pages/dashboard/index",
+    
+    
+    "pages/enterMail/index",
+    
+    "pages/scan/index",    
+    "pages/preview/index",    
+    
+    
+    
+    
+
+
+
+
+    "pages/normal/normal",
+    "pages/avatarUpload/index/index",
+    "pages/avatarUpload/upload/upload",
+    "pages/network/network",
+    "pages/watermark/watermark",
+    "pages/cutInside/cutInside"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0096e0",
+    "navigationBarTextStyle": "white"
+  }
+ 
+}

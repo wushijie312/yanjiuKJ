@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<div id="app">
+		  <input type="text" v-model="inputValue" />
+		  <span>{{spanValue}}</span>
+		</div>
+		
+	</body>
+	<script src="./vue.js"></script>
+	<script>
+		var vm = new Vue({
+	        el : "#app",
+	        data: function() {
+	            return {
+	                inputValue: '123'
+	            }
+	        },
+	        computed : {
+	            spanValue : function() {
+	                return this.inputValue + '.00';
+	            }
+	        }
+
+	    });
+	</script>
+</html>
